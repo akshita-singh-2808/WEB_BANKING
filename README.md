@@ -1,138 +1,115 @@
 <div align="center">
-  <a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank">
-    <img src="[https://github.com/adrianhajdin/banking/assets/151519281/3c03519c-7ebd-4539-b598-49e63d1770b4](https://wallpapercave.com/wp/wp6603070.png)" alt="Project Banner" />
-  </a>
+  <br />
+    <a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank">
+      <img src="https://github.com/adrianhajdin/banking/assets/151519281/3c03519c-7ebd-4539-b598-49e63d1770b4" alt="Project Banner">
+    </a>
+  <br />
+  
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+  </div>
+
+  <h3 align="center">A Fintech Bank Application</h3>
+
+   <div align="center">
+     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+    </div>
 </div>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logo=appwrite&logoColor=white&color=FD366E" alt="Appwrite" />
-</div>
+## 📋 <a name="table">Table of Contents</a>
 
-<br />
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Code Snippets to Copy](#snippets)
+6. 🔗 [Assets](#links)
+7. 🚀 [More](#more)
 
-<h2 align="center">💰 Finvault – Modern Fintech Banking App</h2>
+## 🚨 Tutorial
 
-<p align="center">
-  A full-stack financial SaaS platform to connect, view, and manage multiple bank accounts, built with Next.js, TypeScript, and Appwrite.
-</p>
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
-<p align="center">
-  Learn to build this project step-by-step on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><strong>JavaScript Mastery</strong></a> YouTube channel. Join the JSM community!
-</p>
+If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
-<br />
+<a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
-## 📚 Table of Contents
+## <a name="introduction">🤖 Introduction</a>
 
-1. [🎬 Tutorial](#tutorial)
-2. [🚀 Introduction](#introduction)
-3. [⚙️ Tech Stack](#tech-stack)
-4. [🔥 Features](#features)
-5. [⚡ Quick Start](#quick-start)
-6. [📦 Snippets](#snippets)
-7. [🔗 Resources](#links)
-8. [✨ Extras](#more)
+Built with Next.js, Finvault is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
 
----
+If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
 
-## 🎬 Tutorial
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
-This repository is the codebase for an in-depth tutorial hosted on [JavaScript Mastery](https://www.youtube.com/@javascriptmastery/videos). It’s designed for beginners and intermediates looking to sharpen their skills through real-world projects.
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-📺 [Watch the full tutorial here »](https://youtu.be/PuOVqP_cjkE?feature=shared)
+- Next.js
+- TypeScript
+- Appwrite
+- Plaid
+- Dwolla
+- React Hook Form
+- Zod
+- TailwindCSS
+- Chart.js
+- ShadCN
 
-<div align="center">
-  <a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank">
-    <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" />
-  </a>
-</div>
+## <a name="features">🔋 Features</a>
 
----
+👉 **Authentication**: An ultra-secure SSR authentication with proper validations and authorization
 
-## 🤖 Introduction
+👉 **Connect Banks**: Integrates with Plaid for multiple bank account linking
 
-**Finvault** is a modern fintech platform built with **Next.js** and **Appwrite**. It securely links to multiple bank accounts, displays real-time transaction data, and facilitates peer-to-peer money transfers. Perfect for those looking to build financial dashboards, integrate APIs like Plaid and Dwolla, and explore SSR authentication.
+👉 **Home Page**: Shows general overview of user account with total balance from all connected banks, recent transactions, money spent on different categories, etc
 
-Need help or want to connect with other devs? Join our Discord with **34K+ members**:
+👉 **My Banks**: Check the complete list of all connected banks with respective balances, account details
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank">
-  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" />
-</a>
+👉 **Transaction History**: Includes pagination and filtering options for viewing transaction history of different banks
 
----
+👉 **Real-time Updates**: Reflects changes across all relevant pages upon connecting new bank accounts.
 
-## ⚙️ Tech Stack
+👉 **Funds Transfer**: Allows users to transfer funds using Dwolla to other accounts with required fields and recipient bank ID.
 
-- 🔷 **Next.js**
-- 🔷 **TypeScript**
-- 🔷 **TailwindCSS**
-- 🔷 **Appwrite** (Auth, DB)
-- 🔷 **Plaid** (Bank integration)
-- 🔷 **Dwolla** (Fund transfers)
-- 🔷 **Zod + React Hook Form** (Form validation)
-- 🔷 **Chart.js** (Visualizations)
-- 🔷 **ShadCN/UI** (Reusable UI components)
+👉 **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 
----
+and many more, including code architecture and reusability.
 
-## 🔋 Features
+## <a name="quick-start">🤸 Quick Start</a>
 
-✅ **Secure Authentication**  
-Server-side rendered auth flow with form validation and user permissions.
+Follow these steps to set up the project locally on your machine.
 
-✅ **Bank Account Integration**  
-Link multiple accounts using **Plaid**, and view consolidated financial data.
+**Prerequisites**
 
-✅ **Dashboard Overview**  
-Get a real-time overview: total balance, spending habits, categories, and more.
-
-✅ **Transaction History**  
-Advanced filters and pagination for clear visibility into past transactions.
-
-✅ **Transfer Funds**  
-Use **Dwolla** to safely transfer money to other users within the platform.
-
-✅ **Bank Details**  
-Access a list of all linked banks with account-level data.
-
-✅ **Responsive UI**  
-Optimized for mobile, tablet, and desktop devices.
-
-✅ **Real-time Sync**  
-Seamless updates across all pages when data changes.
-
----
-
-## 🤸 Quick Start
-
-### 🔧 Prerequisites
-
-Make sure you have the following installed:
+Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### 📥 Clone the Repository
+**Cloning the Repository**
 
 ```bash
 git clone https://github.com/adrianhajdin/banking.git
 cd banking
+```
 
-📦 Install Dependencies
-bash
-Copy
-Edit
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
 npm install
-🔑 Environment Variables
-Create a .env file in the root directory and fill in:
+```
 
-env
-Copy
-Edit
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
 #NEXT
 NEXT_PUBLIC_SITE_URL=
 
@@ -157,13 +134,15 @@ DWOLLA_KEY=
 DWOLLA_SECRET=
 DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
 DWOLLA_ENV=sandbox
-💡 Get credentials from Appwrite, Plaid, and Dwolla
 
-🏁 Run the Development Server
-bash
-Copy
-Edit
+```
+
+Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Appwrite](https://appwrite.io/?utm_source=youtube&utm_content=reactnative&ref=JSmastery), [Plaid](https://plaid.com/) and [Dwolla](https://www.dwolla.com/)
+
+**Running the Project**
+
+```bash
 npm run dev
-Visit http://localhost:3000 in your browser.
+```
 
-
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
