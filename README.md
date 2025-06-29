@@ -121,3 +121,49 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/adrianhajdin/banking.git
 cd banking
+
+📦 Install Dependencies
+bash
+Copy
+Edit
+npm install
+🔑 Environment Variables
+Create a .env file in the root directory and fill in:
+
+env
+Copy
+Edit
+#NEXT
+NEXT_PUBLIC_SITE_URL=
+
+#APPWRITE
+NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+NEXT_PUBLIC_APPWRITE_PROJECT=
+APPWRITE_DATABASE_ID=
+APPWRITE_USER_COLLECTION_ID=
+APPWRITE_BANK_COLLECTION_ID=
+APPWRITE_TRANSACTION_COLLECTION_ID=
+APPWRITE_SECRET=
+
+#PLAID
+PLAID_CLIENT_ID=
+PLAID_SECRET=
+PLAID_ENV=
+PLAID_PRODUCTS=
+PLAID_COUNTRY_CODES=
+
+#DWOLLA
+DWOLLA_KEY=
+DWOLLA_SECRET=
+DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
+DWOLLA_ENV=sandbox
+💡 Get credentials from Appwrite, Plaid, and Dwolla
+
+🏁 Run the Development Server
+bash
+Copy
+Edit
+npm run dev
+Visit http://localhost:3000 in your browser.
+
+
